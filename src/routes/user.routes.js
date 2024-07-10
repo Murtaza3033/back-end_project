@@ -5,7 +5,7 @@ import { upload } from "../middlewares/multer.middleware.js"
 const router=Router()
 
 router.route("/register").post(
-    uload.fields([
+    upload.fields([
         {name:"avatar",
             maxCount:1
         },

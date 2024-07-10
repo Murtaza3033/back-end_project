@@ -1,5 +1,5 @@
 import mongoose,{Schema} from "mongoose";
-import { JsonWebTokenError } from "jsonwebtoken";
+// import { JsonWebTokenError } from "jsonwebtoken";
 //JWT is a barer token, the one who will send it to me will get data
 import bcrypt from "bcrypt";
 
